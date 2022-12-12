@@ -7,17 +7,17 @@
  */
 int main(void)
 {
-	char alphebet;
+char alphebet;
 	
-	for (alphebet = 'a'; alphebet <= 'z'; alphebet++)
-	{
-		putchar(alphebet);
-	}
+for (alphebet = 'a'; alphebet <= 'z'; alphebet++)
+{
+putchar(alphebet);
+}
 
-	for (alphebet = 'A'; alphebet <= 'Z'; alphebet++)
-	{
-		putchar(alphebet);
-	}
-	putchar('\n');
-	return (0);
+for (alphebet = 'A'; alphebet <= 'Z'; alphebet++)
+{
+putchar(alphebet);
+}
+putchar('\n');
+return (0);
 }

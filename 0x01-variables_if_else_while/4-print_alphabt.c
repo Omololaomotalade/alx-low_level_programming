@@ -11,7 +11,7 @@ char alphebet;
 
 if (alphebet != 'q' && alphebet != 'e')
 
-for (alphebet = 'a'; alphebet <= 'z', alphebet++)
+for (alphebet = 'a'; alphebet <= 'z'; alphebet++)
 putchar(alphebet);
 putchar('\n');
 

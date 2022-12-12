@@ -14,7 +14,6 @@ int main(void)
 
 	for (alphebet = 'a'; alphebet <= 'f'; alphebet++)
 		putchar(alphebet);
-	
 	putchar('\n');
 
 	return (0);

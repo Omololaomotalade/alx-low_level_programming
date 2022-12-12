@@ -8,7 +8,8 @@
 int main(void)
 {
 	char alphebet;
-	for (alphebet ='A', alphebet <= 'Z', alphebet++);
+
+	for (alphebet = 'A'; alphebet <= 'Z'; alphebet++)
 		putchar(alphebet);
 putchar('\n');
 return (0);

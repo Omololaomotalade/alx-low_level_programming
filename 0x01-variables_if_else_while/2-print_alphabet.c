@@ -10,7 +10,7 @@ char alphebet;
 
 for (alphebet = 'a'; alphebet <= 'z'; alphebet++)
 	putchar(alphebet);
-putchar("\n");
+putchar('\n');
 
 return (0);
 }

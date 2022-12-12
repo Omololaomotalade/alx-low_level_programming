@@ -7,13 +7,13 @@
 
 int main(void)
 {
-	char alphebet;
-	
-	if (alphebet != 'q' && alphebet != 'e')
+char alphebet;
 
-		for (alphebet = 'a'; alphebet <= 'z', alphebet++)
-			putchar(alphebet);
-	putchar('\n');
+if (alphebet != 'q' && alphebet != 'e')
 
-	return (0);
+for (alphebet = 'a'; alphebet <= 'z', alphebet++)
+putchar(alphebet);
+putchar('\n');
+
+return (0);
 }

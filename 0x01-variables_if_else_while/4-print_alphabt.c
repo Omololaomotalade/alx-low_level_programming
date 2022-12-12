@@ -9,9 +9,9 @@ int main(void)
 {
 char alphebet;
 
-if (alphebet != 'q' && alphebet != 'e')
 
 for (alphebet = 'a'; alphebet <= 'z'; alphebet++)
+if (alphebet != 'q' && alphebet != 'e')
 putchar(alphebet);
 putchar('\n');
 

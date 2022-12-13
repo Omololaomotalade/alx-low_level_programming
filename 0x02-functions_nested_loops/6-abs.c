@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _abs(int)- compute the absolute value of an integer
+ * _abs(int)- compute the absolute value of an integer
  * @r : the character
  * Return: r if r is abs, else return -r
  */

@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * int _islower - check the code for ALX School students.
- *
- * Return: 1 if c is lowercase otherwise 0.
+ * _islower - check if a character is lowercase
+ * @c: the character
+ * Return: 1 if c is lower , if not 0
  */
 
 int _islower(int c)

@@ -1,15 +1,14 @@
 #include "main.h"
 /**
- * a function that computes the absolute value of an integer
- * prototype int _abs(int)
- * r is the variable
+ * int _abs(int)- compute the absolute value of an integer
+ * @r : the character
+ * Return: r if r is abs, else return -r
  */
 int _abs(int r)
 {
 	if (r > 0)
-	{
-		return (r);
+	{	return (r);
 	}
-	else 
+	else
 		return (-r)
 }

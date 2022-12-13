@@ -1,6 +1,6 @@
 #include main.h
 /**
- * print_alphabet_x10(void) - check the code for ALX School students.
+ * print_alphabet_x10 - check the code for ALX School students.
  *
  * Return: Always 0.
  */

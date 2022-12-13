@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - check the code for ALX School students.
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 void print_alphabet(void)
 {

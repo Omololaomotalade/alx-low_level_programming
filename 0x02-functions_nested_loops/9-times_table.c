@@ -1,25 +1,22 @@
 #include "main.h"
 /**
  * times_table - print the 9 times
- * @i and j: the int of the variable
- * Return:  mat[i][j]
+ * @i & j :-Fill the values in the table
+ * Return:  Printing the multiplication table
  */
-# define SIZE 10
+
 void times_table(void)
 {
 	int i, j;
-	int mat[SIZE][SIZE];
-	
-	// step1 -Fill the values in the table
-	for (i=1; i<SIZE; i++)
-		for (j=1; j<SIZE; j++)
-			mat[i][j] = i*j;
-	// step2 - Printing the multiplication table
-	for (i=0; i<SIZE; i++)
+	int mat[i][j];
+
+	for (i = 1; i < 10; i++)
+		for (j = 1; j < 10; j++)
+			mat[i][j] = i * j;
+	for (i = 0; i < 10; i++)
 	{
-		for (j=0; j<SIZE; j++)
+		for (j = 0; j < 10; j++)
 			return ("%5d ", mat[i][j]);
-		_putchar ('\n')
+		_putchar ('\n');
 	}
-	return 0;
-} 
+}

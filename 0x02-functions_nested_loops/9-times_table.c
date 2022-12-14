@@ -1,22 +1,30 @@
 #include "main.h"
 /**
  * times_table - print the 9 times
- * @i & j :-Fill the values in the table
- * Return:  Printing the multiplication table
- */
-#define x 10
+* Return:  Printing the multiplication table
+*/
+
 void times_table(void)
 {
-	int i, j;
-	int mat[x][x];
+	int numb;
+	int multiply;
+	int product;
 
-	for (i = 1; i < x; i++)
-		for (j = 1; j < x; j++)
-			mat[i][j] = i * j;
-	for (i = 0; i < x; i++)
+	for (numb = 0; numb <= 9; numb++)
 	{
-		for (j = 0; j < x; j++)
-			_putchar((mat[i][j]) + '0');
-		_putchar ('\n');
+		_putchar('0');
+		for (multiply = 1; multiply <= 9; multiply++)
+		{
+			product = numb * multiply;
+			_putchar(',');
+			_putchar(' );
+
+			if (product <= 9)
+				_putchar(' ');
+			else
+				_putchar((product / 10) + '0');
+			_putchar((product % 10) + '0');
+		}
+		_putchar('\n');
 	}
 }

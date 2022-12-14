@@ -16,7 +16,7 @@ void times_table(void)
 	for (i = 0; i < x; i++)
 	{
 		for (j = 0; j < x; j++)
-			return ("%5d ", mat[i][j]);
+			_putchar('%5d', mat[i][j]);
 		_putchar ('\n');
 	}
 }

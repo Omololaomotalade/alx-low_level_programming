@@ -17,7 +17,7 @@ void times_table(void)
 		{
 			product = numb * multiply;
 			_putchar(',');
-			_putchar(' );
+			_putchar(' ');
 
 			if (product <= 9)
 				_putchar(' ');

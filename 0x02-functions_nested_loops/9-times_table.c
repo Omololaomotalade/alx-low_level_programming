@@ -4,10 +4,10 @@
  * @i & j :-Fill the values in the table
  * Return:  Printing the multiplication table
  */
+#define x 10
 void times_table(void)
 {
 	int i, j;
-	int x = 10;
 	int mat[x][x];
 
 	for (i = 1; i < x; i++)

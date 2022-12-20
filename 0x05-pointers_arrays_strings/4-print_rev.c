@@ -5,19 +5,11 @@
  */
 void print_rev(char *s)
 {
-int length = 0;
-int rev;
+	int i, l;
+	l = strlen(s);
 
-while (*s != '\0')
-{
-length++;
-s++;
-}
-s--;
-for (rev = length; rev > 0; rev--)
-{
-_putchar(*s);
-s--;
+	for (i = l - 1; i >= 0; i--)
+		_putchar(*s);
 }
 _putchar('\n');
 }

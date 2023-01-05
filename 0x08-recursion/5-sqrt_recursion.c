@@ -15,7 +15,10 @@ int _sqrt_recursion(int n)
 	}
 }
 
-
+/**
+ * actual_sqrt_recursion - recurses to find the natural sqrt of a number
+ * @n: number to calculate the sqrt
+ * @i: iterator
 
 
 
@@ -23,9 +26,7 @@ int _sqrt_recursion(int n)
 int actual_sqrt_recursion(int n, int i)
 {
 	if (i * i > n)
-	
 		return (-1);
-	
 	if (i * i == n)
 		return (i);
 	return (actual_sqrt_recursion(n, i + 1));
